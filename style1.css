@@ -19,6 +19,7 @@
 .tilenav {
 	font-family: "Segoe UI Light";
 	color: #FFFFFF;
+	background-color: #000000;
 	float:left;
 	width: 80px;
 	height: 80px;
@@ -37,6 +38,10 @@
 	height: 70px;
 	padding:5px;
 	display:block;
+	transition: background-color .25s ease-in-out;
+	-moz-transition: background-color .25s ease-in-out;
+   	-webkit-transition: background-color .25s ease-in-out;
+
 }
 
 .title-style {
@@ -85,34 +90,33 @@
 
 #tile-red a{
 	background-color: #800000;
+
 }
 #tile-red a:hover
 {
-	background-color: #600000; 
+	background-color: #500000;
 }
 
 #tile-grey {
-	background-color:gray;
+	background-color: #666666;
 }
 #tile-grey a:hover {
-	background-color:#000000;
+	background-color: #333333;
 }
 
 #tile-blue {
-	background-color:navy;
+	background-color: #000099;
 }
 #tile-blue a:hover {
-	background-color:#000000;
+	background-color: #000066;
 }
 
 
 a.tilenav:link {
 	color: #FFFFFF;
-	background-color:transparent;
 }
 a.tilenav:hover {
 	color: #FFFFFF;
-	background-color: #000000;
 }
 
 a.nav:link {
