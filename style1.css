@@ -11,6 +11,11 @@
 	margin-top: 10%
 }
 
+.tile-align {
+	margin:auto;
+	width: 430px;
+}
+
 .tilenav {
 	font-family: "Segoe UI Light";
 	color: #FFFFFF;
@@ -22,11 +27,11 @@
 	margin-right: 30px;
 	margin-top: 100px;
 }
+
 .tilenav a {
 	font-family: "Segoe UI Light";
 	color: #FFFFFF;
 	text-decoration:none;
-	/*background-color:maroon;*/
 	float:left;
 	width: 70px;
 	height: 70px;
@@ -71,32 +76,44 @@
 	height: 16px;
 }
 
-/* .tile-link {
-	text-decoration:none;
-}
-*/
-
 .nav {
 	text-decoration: none;
 	color: #000000;
 }
 
 
-a.tilenav:link {
-	color: #FFFFFF;
+
+#tile-red a{
 	background-color: #800000;
 }
-a.tilenav:visited {
-	color: #000000;
+#tile-red a:hover
+{
+	background-color: #600000; 
+}
+
+#tile-grey {
+	background-color:gray;
+}
+#tile-grey a:hover {
+	background-color:#000000;
+}
+
+#tile-blue {
+	background-color:navy;
+}
+#tile-blue a:hover {
+	background-color:#000000;
+}
+
+
+a.tilenav:link {
+	color: #FFFFFF;
+	background-color:transparent;
 }
 a.tilenav:hover {
 	color: #FFFFFF;
 	background-color: #000000;
 }
-a.tilenav:active {
-	color: #800000;
-}
-
 
 a.nav:link {
 	color: #000000;
@@ -109,6 +126,4 @@ a.nav:hover {
 }
 a.nav:active {
 	color: #800000;
-}
-.newStyle1 {
 }
